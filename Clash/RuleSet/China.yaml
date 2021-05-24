@@ -117,10 +117,10 @@ payload:
   # - DOMAIN-SUFFIX,1drv.com
   # - DOMAIN-SUFFIX,storage.live.com
   # >> Outlook
-  - DOMAIN-SUFFIX,hotmail.com
-  - DOMAIN-SUFFIX,outlook.com
-  - DOMAIN,outlook.office365.com
-  - DOMAIN,smtp.office365.com
+  #- DOMAIN-SUFFIX,hotmail.com
+  #- DOMAIN-SUFFIX,outlook.com
+  #- DOMAIN,outlook.office365.com
+  #- DOMAIN,smtp.office365.com
   # >> Windows Server Update Services
   - DOMAIN-SUFFIX,windowsupdate.microsoft.com
   - DOMAIN-SUFFIX,update.microsoft.com
@@ -141,9 +141,9 @@ payload:
   - DOMAIN-SUFFIX,ydstatic.com
   # > PayPal
   # USER-AGENT,PayPal*
-  - DOMAIN-SUFFIX,paypal.com
-  - DOMAIN-SUFFIX,paypal.me
-  - DOMAIN-SUFFIX,paypalobjects.com
+  #- DOMAIN-SUFFIX,paypal.com
+  #- DOMAIN-SUFFIX,paypal.me
+  #- DOMAIN-SUFFIX,paypalobjects.com
   # > Sina
   - DOMAIN-SUFFIX,sina.com
   - DOMAIN-SUFFIX,weibo.com
